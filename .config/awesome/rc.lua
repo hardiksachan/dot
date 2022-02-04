@@ -466,4 +466,5 @@ beautiful.useless_gap = 5
 -- Autostart apps
 awful.spawn.with_shell("picom")
 awful.spawn.with_shell("feh --bg-fill ~/Pictures/wallpapers/mountains1.jpg")
+awful.spawn.with_shell("~/.config/polybar/launchers/awesome.sh")
 
