@@ -1,0 +1,2 @@
+alias bt=bluetoothctl
+alias wal="feh --bg-fill -r -z ~/Pictures/wallpapers/wallpapers"
