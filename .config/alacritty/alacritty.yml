@@ -15,6 +15,7 @@ window.dynamic_title: true
 # Font Customization
 font:
   family: Hack
+  size: 14.0
   debug:
     persistent_logging: false
 draw_bold_text_with_bright_colors: true
