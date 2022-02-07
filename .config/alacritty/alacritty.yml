@@ -14,7 +14,7 @@ window.dynamic_title: true
 
 # Font Customization
 font:
-  family: Hack
+  family: 'Hack Nerd Font'
   size: 14.0
   debug:
     persistent_logging: false
