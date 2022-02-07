@@ -467,4 +467,5 @@ beautiful.useless_gap = 5
 awful.spawn.with_shell("picom --experimental-backends")
 awful.spawn.with_shell("feh --bg-fill -r -z ~/Pictures/wallpapers/wallpapers")
 awful.spawn.with_shell("~/.config/polybar/launchers/awesome.sh")
+awful.spawn.with_shell("nm-applet") -- TODO: replace this with rofi-wifi-menu
 
