@@ -6,7 +6,7 @@ pcall(require, "luarocks.loader")
 local gears = require("gears")
 local awful = require("awful")
 require("awful.autofocus")
--- require("collision")()
+require("collision")()
 -- Widget and layout library
 local wibox = require("wibox")
 -- Theme handling library
