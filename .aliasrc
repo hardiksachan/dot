@@ -1,3 +1,6 @@
+alias update="sudo dnf update"
+alias ls=exa
+alias szrc="source ~/.zshrc"
 alias bt=bluetoothctl
 alias wal="feh --bg-fill -r -z ~/Pictures/wallpapers/wallpapers"
 alias vim=nvim
