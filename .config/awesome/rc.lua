@@ -349,11 +349,11 @@ awful.rules.rules = {
                      keys = clientkeys,
                      buttons = clientbuttons,
                      screen = awful.screen.preferred,
-                     placement = awful.placement.no_overlap+awful.placement.no_offscreen,
-                     maximized_vertical   = false,
-                     maximized_horizontal = false,
-                     floating = false,
-                     maximized = false
+                     placement = awful.placement.no_overlap+awful.placement.no_offscreen
+                     -- maximized_vertical   = false,
+                     -- maximized_horizontal = false,
+                     -- floating = false,
+                     -- maximized = false
      }
     },
 
@@ -363,7 +363,7 @@ awful.rules.rules = {
           "DTA",  -- Firefox addon DownThemAll.
           "copyq",  -- Includes session name in class.
           "pinentry",
-          "polybar"
+          -- "polybar"
         },
         class = {
           "Arandr",
@@ -473,4 +473,5 @@ awful.spawn.with_shell("picom --experimental-backends")
 awful.spawn.with_shell("feh --bg-fill -r -z ~/Pictures/wallpapers/wallpapers")
 awful.spawn.with_shell("~/.config/polybar/launchers/awesome.sh")
 awful.spawn.with_shell("nm-applet") -- TODO: replace this with rofi-wifi-menu
+awful.spawn.with_shell("kmix")
 
