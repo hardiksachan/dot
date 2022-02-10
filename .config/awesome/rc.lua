@@ -233,10 +233,10 @@ globalkeys = gears.table.join(
 		end
 	end, { description = "restore minimized", group = "client" }),
 
-	-- Dmenu
+	-- Rofi 
 	awful.key({ modkey }, "space", function()
-		awful.util.spawn("dmenu_run")
-	end, { description = "launch dmenu", group = "launcher" }),
+		awful.util.spawn("rofi -show drun")
+	end, { description = "launch rofi drun", group = "launcher" }),
 
 	-- Menubar
 	awful.key({ modkey }, "p", function()
