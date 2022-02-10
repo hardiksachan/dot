@@ -23,7 +23,7 @@ cursor-scroll = ns-resize
 ;;;;;; Module Positioning
 modules-left = term 
 modules-center = workspaces
-modules-right = wallpaper shot audio battery date 
+modules-right = wallpaper shot audio wireless-network battery date 
 
 [settings]
 screenchange-reload = true
