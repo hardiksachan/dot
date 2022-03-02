@@ -7,3 +7,7 @@ alias vim=nvim
 alias v=vim
 alias mv="mv -i"
 alias rm="rm -i"
+alias v+="amixer -D pipewire sset Master 5%+"
+alias v-="amixer -D pipewire sset Master 5%-"
+alias tomper="./a.out"
+alias agc=gcc

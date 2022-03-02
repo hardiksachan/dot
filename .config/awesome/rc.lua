@@ -488,11 +488,12 @@ end)
 -- }}}
 
 -- Gaps
-beautiful.useless_gap = 5
+-- beautiful.useless_gap = 5
 
 --
 -- Autostart apps
+awful.spawn.with_shell("~/.screenlayout/dualmonitor.sh")
 awful.spawn.with_shell("picom --experimental-backends")
-awful.spawn.with_shell("feh --bg-fill -r -z ~/Pictures/wallpapers/wallpapers")
+awful.spawn.with_shell("feh --bg-fill -r -z ~/Pictures/wallpapers/wallpapers/animelike ~/Pictures/wallpapers/wallpapers/animelike")
 awful.spawn.with_shell("~/.config/polybar/launchers/awesome-dual.sh")
 awful.spawn.with_shell("nm-applet") -- TODO: replace this with rofi-wifi-menu
