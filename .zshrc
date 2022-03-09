@@ -111,5 +111,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 alias config='/usr/bin/git --git-dir=/home/hardik/.cfg/ --work-tree=/home/hardik'
 
+# golang config
+export GOPATH="$HOME/go-workspace"
+export PATH="$HOME/.gobrew/current/bin:$HOME/.gobrew/bin:$GOPATH/bin:$PATH"
+
 # Created by `pipx` on 2022-02-06 12:28:26
 export PATH="$PATH:/home/hardik/.local/bin"
