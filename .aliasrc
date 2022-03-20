@@ -12,3 +12,4 @@ alias v-="amixer -D pipewire sset Master 5%-"
 alias tomper="./a.out"
 alias agc=gcc
 alias m5="amixer sset 'Capture' 5%+"
+alias y=youtube-dl
