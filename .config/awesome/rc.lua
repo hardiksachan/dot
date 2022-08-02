@@ -238,6 +238,12 @@ globalkeys = gears.table.join(
 		awful.util.spawn("rofi -show drun")
 	end, { description = "launch rofi drun", group = "launcher" }),
 
+
+	-- Flameshot 
+	awful.key({ modkey, "Control" }, "s", function()
+		awful.util.spawn("flameshot gui")
+	end, { description = "launch flameshot", group = "screenshot" }),
+
 	-- Menubar
 	awful.key({ modkey }, "p", function()
 		menubar.show()
@@ -495,5 +501,6 @@ end)
 awful.spawn.with_shell("picom --experimental-backends")
 awful.spawn.with_shell("autorandr --change")
 awful.spawn.with_shell("feh --bg-fill -r -z ~/Pictures/wallpapers/wallpapers/animelike ~/Pictures/wallpapers/wallpapers/animelike")
+awful.spawn.with_shell("lxpolkit &")
 -- awful.spawn.with_shell("~/.config/polybar/launchers/awesome.sh")
 awful.spawn.with_shell("nm-applet") -- TODO: replace this with rofi-wifi-menu
